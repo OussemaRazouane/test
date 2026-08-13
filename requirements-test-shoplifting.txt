@@ -1,0 +1,14 @@
+# ============================================================
+# SHOPLIFTING TEST TOOL - MINIMAL DEPENDENCIES
+# ============================================================
+# Same packages/versions as ai-engine/requirements.txt
+# Only difference: opencv-python-headless -> opencv-python
+# (headless has no cv2.imshow, this tool needs a live GUI window)
+
+# --- AI / Computer Vision ---
+onnxruntime-gpu==1.22.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# --- Utilities ---
+python-dotenv==1.2.1
